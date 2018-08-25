@@ -13,7 +13,7 @@ nc="\e[0m"
 
 echo -e "${green}===> 开始下载...${nc}"
 cd $HOME
-wget -q https://github.com/summerblue/laravel-ubuntu-init/archive/master.tar.gz -O laravel-ubuntu-init.tar.gz
+wget -q https://github.com/yousails/laravel-ubuntu-init/archive/master.tar.gz -O laravel-ubuntu-init.tar.gz
 rm -rf laravel-ubuntu-init
 tar zxf laravel-ubuntu-init.tar.gz
 mv laravel-ubuntu-init-master laravel-ubuntu-init
