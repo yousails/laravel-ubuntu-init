@@ -38,7 +38,7 @@
 ## 安装步骤
 
 ```
-wget -qO- https://raw.githubusercontent.com/summerblue/laravel-ubuntu-init/master/download.sh - | bash
+wget -qO- https://raw.githubusercontent.com/yousails/laravel-ubuntu-init/master/download.sh - | bash
 ```
 
 此脚本会将安装脚本下载到当前用户的 Home 目录下的 `laravel-ubuntu-init` 目录并自动执行安装脚本，在安装结束之后会在屏幕上输出 Mysql root 账号的密码，请妥善保存。
@@ -55,7 +55,7 @@ wget -qO- https://raw.githubusercontent.com/summerblue/laravel-ubuntu-init/maste
 
 会提示输入站点名称（只能是英文、数字、`-` 和 `_`）、域名（多个域名用空格隔开），确认无误后会创建对应的 Nginx 配置并重启 Nginx。
 
-### 2. 新增 Mysql 用户、数据库
+### 2. 新增 Mysql 用户、数据库（**已取出，用云数据库**）
 
 ```
 ./16.04/mysql_add_user.sh
